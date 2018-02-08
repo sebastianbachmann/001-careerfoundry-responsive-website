@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fffeea;
+  color: #34495e;
+  padding-top: 100px;
+}
+
+.nav {
+  top: 0;
+  height: 100px;
+  position: fixed;
+  width: 100%;
+  background-color: black;
+}
+
+.nav ul {
+  /* Tried to center the menu */
+  padding: auto;
+}
+
+.nav ul li {
+  display: inline-block;
+  float: right;
+  padding: 20px 10px 20px 10px;
+  /* background-color: red; */
+}
+
+.nav ul li a {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  text-decoration: none;
+  transition: color 600ms;
+  -webkit-transition: color 600ms;
+}
+
+.nav a:hover {
+  color: #ff0;
+}
+
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.header h1 {
+  text-align: center;
+}
+
+.column {
+  display: inline-block;
+  float: left;
+  width: 33.33333333333333%;
+  padding-right: 20px;
+}
+
+.main-text {
+  padding-top: 60px;
+  clear: both;
+}
+
+.image img {
+  width: 100%;
+  position: static;
+}
+
+.skills {
+  background-color: #5AD4C2;
+  color: #FFF;
+}
+
+#skill-list {
+  margin-left: 50px;
+}
+
+/* Typography */
+h1, h2, h3 {
+  font-family: Futura, Helvetica, Arial, sans-serif;
+}
+
+p, li {
+  font-family: Georgia, sans-serif;
+}
+
+.intro p {
+  font-size: 3em;
+  font-weight: 100;
+  font-family: Futura, Helvetica, Arial, sans-serif;
+  -webkit-margin-before: 0;
+}
+
+.skills h3 {
+  text-align: center;
+  text-transform: uppercase;
+}
